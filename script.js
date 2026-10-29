@@ -231,7 +231,7 @@
         quizProgressLabel.textContent = 'Викторина пройдена';
         if (quizScore === quizQuestions.length) {
           quizResultTitle.textContent = 'Ну ты даёшь, черт! 🏆';
-          quizResultText.textContent = '5 из 5! Похоже, наша история у тебя тоже на повторе. Приз — обнимашки на свидании. Обжалованию не подлежит.';
+          quizResultText.textContent = '4 из 4! Похоже, наша история у тебя тоже на повторе. Приз — обнимашки на свидании. Обжалованию не подлежит.';
         } else if (quizScore >= 2) {
           quizResultTitle.textContent = 'Зачёт, Нурсик! 💗';
           quizResultText.textContent = `${quizScore} из ${quizQuestions.length}. Главное ты помнишь — а спорные моменты можем обсудить на свидании. Е дауай короч, без апелляций 😂`;
